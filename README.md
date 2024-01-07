@@ -1,59 +1,58 @@
-# CORD.js <!-- omit in toc -->
+# CORD.js
 
-Provides a collection of classes and methods to interact with the Cord network.
+CORD.js is a JavaScript SDK that provides a collection of classes and methods to interact with the Cord network.
+
+## Table of Contents
 
 - [Build to see changes](#build-to-see-changes)
+- [Experiment with SDK methods](#experiment-with-sdk-methods)
 - [To consume SDK in your project](#to-consume-sdk-in-your-project)
-
 
 ## Build to see changes
 
-Clone this repo and navigate into it.
+To get started with CORD.js and see the latest changes, follow these steps:
 
-```
-yarn
-```
+1. Clone this repository and navigate into it:
 
-Note that **before you see your changes from the SDK, you have to build it**, by executing a `build`:
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
 
-```
-yarn build
-```
+2. Install the necessary dependencies:
 
-## Experiment the SDK methods
+    ```bash
+    yarn
+    ```
 
+3. Build the SDK to see the changes:
 
-Once the build of the package is complete (with `yarn build`), one can try below methods to check
-if methods are working.
+    ```bash
+    yarn run build
+    ```
 
-Note:
-Make sure that the cord instance in running locally by following the README.md under the CORD repo.
-Follow the instructions under the topic -  "Run the node"
+## Experiment with SDK methods
 
+After building the package, you can experiment with the SDK methods using the provided demo scripts. Ensure that the Cord instance is running locally by following the instructions in the README.md under the CORD repository, specifically under the topic "Run the node."
 
-```
-
-$ npx tsx demo/src/func-test.ts
-
-$ npx tsx demo/src/network-score-test.ts
-
-```
-The output of these runs are self-explanatory. For reference of how this is structured,
-you can refer to the source of the demo scripts.
-
-
-## To consume SDK in your project
-
-Install the SDK by running the following commands in your project directory
+Run the demo scripts using the following commands:
 
 ```bash
-npm install @cord.network/sdk
-```
+npx tsx demo/src/func-test.ts
+npx tsx demo/src/network-score-test.ts
 
-Or with `yarn`:
+or with `yarn`
+yarn tsx demo/src/func-test.ts
+yarn tsx demo/src/network-score-test.ts
 
-```bash
-yarn add @cord.network/sdk
-```
+## To Consume SDK in Your Project
 
+To use CORD.js in your project, follow these steps:
 
+1. Install the SDK using yarn:
+
+    ```bash
+    yarn add @cord.network/sdk
+    ```
+
+2. You can now import and use the SDK in your project.
