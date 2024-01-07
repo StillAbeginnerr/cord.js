@@ -46,7 +46,7 @@ yarn tsx demo/src/func-test.ts
 yarn tsx demo/src/network-score-test.ts
 
 
-## To consume SDK in Your project
+## To consume SDK in your project
 
 To use CORD.js in your project, follow these steps:
 
