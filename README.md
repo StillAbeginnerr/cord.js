@@ -1,4 +1,4 @@
-# CORD.js
+# CORD.js <!-- omit in toc -->
 
 CORD.js is a JavaScript SDK that provides a collection of classes and methods to interact with the Cord network.
 
